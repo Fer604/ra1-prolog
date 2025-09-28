@@ -37,8 +37,8 @@ perfil(redes, design_visual, 1).
 perfil(redes, atendimento_cliente, 5).
 
 % --- Perguntas ---
-pergunta(1, 'Você tem afinidade com lógica de programação?', logica_programacao).
-pergunta(2, 'Você tem afinidade com conserto de máquinas?', concerto_maquinas).
-pergunta(3, 'Você tem afinidade com matemática e estatística?', matematica_estatistica).
-pergunta(4, 'Você tem afinidade com design visual?', design_visual).
-pergunta(5, 'Você tem afinidade com atendimento ao cliente?', atendimento_cliente).
+pergunta(1, 'Voce tem afinidade com logica de programacao?', logica_programacao).
+pergunta(2, 'Voce tem afinidade com conserto de maquinas?', concerto_maquinas).
+pergunta(3, 'Voce tem afinidade com matematica e estatistica?', matematica_estatistica).
+pergunta(4, 'Voce tem afinidade com design visual?', design_visual).
+pergunta(5, 'Voce tem afinidade com atendimento ao cliente?', atendimento_cliente).
