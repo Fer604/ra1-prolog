@@ -1,6 +1,6 @@
-% Perfil: gosta de hardware e conserto de máquinas
-resposta(1, n, logica_programacao).
-resposta(2, s, concerto_maquinas).
-resposta(3, n, matematica_estatistica).
-resposta(4, n, design_visual).
-resposta(5, s, atendimento_cliente).
+% Perfil: gosta de hardware e conserto de maquinas
+resposta(1, n).
+resposta(2, s).
+resposta(3, n).
+resposta(4, n).
+resposta(5, s).

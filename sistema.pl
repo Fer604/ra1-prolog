@@ -35,10 +35,13 @@ calcula_pontuacao(Trilha, Pontuacao) :-
     ), Pesos),
     sum_list(Pesos, Pontuacao).
 
+
 % Exibe resultado
-exibe_resultado([]) :-
-    writeln('Nenhuma trilha recomendada.').
-exibe_resultado([(Trilha, Pont)|Resto]) :-
-    trilha(Trilha, Desc),
-    format("~w (~w pontos): ~w~n", [Trilha, Pont, Desc]),
-    exibe_resultado(Resto).
+exibe_resultado([]) :- !, writeln('Nenhuma trilha recomendada.').
+
+exibe_resultado(Resultados) :-
+    Resultados \= [],
+    writeln('\n=== Recomendações de Trilhas ==='),
+    forall(member((Trilha, Pont), Resultados),
+        (trilha(Trilha, Desc),
+         format("~w (~w pontos): ~w~n", [Trilha, Pont, Desc]))).

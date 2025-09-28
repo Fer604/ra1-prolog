@@ -1,9 +1,9 @@
 % --- Trilhas ---
 trilha(full_stack, 'Desenvolvimento completo, englobando front-end e back-end').
-trilha(hardware, 'Desenvolvimento de componentes físicos e infraestrutura dos computadores').
-trilha(seguranca_da_informacao, 'Proteção de dados, redes e sistemas contra ataques').
-trilha(ciencia_de_dados, 'Análise de dados, aprendizado de máquina').
-trilha(redes, 'Administração de servidores, cloud computing e conectividade').
+trilha(hardware, 'Desenvolvimento de componentes fisicos e infraestrutura dos computadores').
+trilha(seguranca_da_informacao, 'Protecao de dados, redes e sistemas contra ataques').
+trilha(ciencia_de_dados, 'Analise de dados, aprendizado de máquina').
+trilha(redes, 'Administracao de servidores, cloud computing e conectividade').
 
 % --- Perfis ---
 perfil(full_stack, logica_programacao, 5).
